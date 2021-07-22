@@ -16,6 +16,7 @@
 @section('content')
 
 <table>
+  <h1>Todo List</h1>
   <tr>
     <th>作成日</th>
     <th>タスク名</th>
