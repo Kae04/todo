@@ -17,7 +17,7 @@
         タスク名
       </th>
       <td>
-        <input type="text" name="タスク名" value="{{$form->タスク名}}">
+        <input type="text" name="content" value="{{$form->content}}">
       </td>
     </tr>
     

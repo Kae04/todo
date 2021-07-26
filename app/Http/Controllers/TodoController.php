@@ -17,11 +17,10 @@ class TodoController extends Controller
     public function create(Request $request)
     {
         $param = [
-            '作成日' => $request->作成日,
-            'タスク名' => $request->タスク名,
-            '更新' => $request-> updete,
-            '削除' => $request-> create,
-            'id' => $request->idate
+            'id' => $request->idate,
+            'content' => $request->content,
+            'updated_at' => $request->updete,
+            'created_at' => $request->create,
         ];
         DB::table('list')->insert($param);
         return redirect('/todo/create');
@@ -36,9 +35,9 @@ class TodoController extends Controller
    {
        $param = [
            'id' => $request->id,
-           'タスク名' => $request->タスク名,
+           'content' => $request->content,
        ];
-       DB::update('update list set タスク名 =:タスク名, where id =:id', $param);
+       DB::update('update list set content =:content, where id =:id', $param);
        return redirect('/');
    }
    public function delete(Request $request)

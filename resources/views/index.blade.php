@@ -29,7 +29,7 @@
       {{$item->作成日}}
     </td>
     <td>
-      {{$item->タスク名}}
+      {{$item->content}}
     </td>
     <td>
       {{$item->更新}}
