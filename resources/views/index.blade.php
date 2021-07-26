@@ -40,4 +40,4 @@
   </tr>
   @endforeach
 </table>
-@endsection
+@endsection 
