@@ -1,6 +1,6 @@
 @extends('layouts.hello')
 <style>
-  th {
+   th {
       background-color: black;
       color: white;
       padding: 5px 30px;
@@ -16,30 +16,21 @@
       color: white;
     }
 </style>
-@section('title', 'delete.blade.php')
+@section('title', 'create.blade.php')
 
 @section('content')
-<form action="/todo/delete" method="POST">
+<form action="/todo/create" method="POST">
   <table>
     @csrf
-    <tr>
-      <th>
-        id
-      </th>
-      <td>
-        <input type="text" name="id" value="{{$form->id}}">
-      </td>
-    </tr>
     <tr>
       <th>
         タスク名
       </th>
       <td>
-        <input type="text" name="content" value="{{$form->content}}">
+        <input type="text" name="name">
       </td>
     </tr>
-    
   </table>
-  <button>削除</button>
+  <button>送信</button>
 </form>
 @endsection

@@ -20,8 +20,7 @@
         <input type="text" name="content" value="{{$form->content}}">
       </td>
     </tr>
-    
-  </table>
-  <button>送信</button>
+    </table>
+  <button>更新</button>
 </form>
 @endsection
