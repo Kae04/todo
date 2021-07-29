@@ -312,6 +312,7 @@
       <p class="title mb-15">Todo List</p>
             <div class="todo">
         <form action="/todo/create" method="post" class="flex between mb-30">
+        @csrf
           <input type="hidden" name="_token" value="vNqaEZlOu5A3KWOMnhSQAG80MAl04sOq78Q56bff">          <input type="text" class="input-add" name="content" />
           <input class="button-add" type="submit" value="追加" />
         </form>
