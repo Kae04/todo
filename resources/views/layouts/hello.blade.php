@@ -312,8 +312,7 @@
       <p class="title mb-15">Todo List</p>
             <div class="todo">
         <form action="/todo/create" method="post" class="flex between mb-30">
-          <input type="hidden" name="_token" value="k4YgdbogPJz5wm5xrfpzcZuGgZ4voSuYV47lUXdG">          
-          <input type="text" class="input-add" name="content" />
+          <input type="hidden" name="_token" value="vNqaEZlOu5A3KWOMnhSQAG80MAl04sOq78Q56bff">          <input type="text" class="input-add" name="content" />
           <input class="button-add" type="submit" value="追加" />
         </form>
         <table>
@@ -323,88 +322,10 @@
             <th>更新</th>
             <th>削除</th>
           </tr>
-          <tr>
-            <td>
-              2021-07-20 13:36:22
-            </td>
-            <form action="http://young-woodland-12937.herokuapp.com/todo/update?id=4854" method="post">
-              <input type="hidden" name="_token" value="k4YgdbogPJz5wm5xrfpzcZuGgZ4voSuYV47lUXdG">              
-              <td>
-                <input type="text" class="input-update" value="" name="content" />
-              </td>
-              <td>
-                <button class="button-update">更新</button>
-              </td>
-            </form>
-            <td>
-              <form action="http://young-woodland-12937.herokuapp.com/todo/delete?id=4854" method="post">
-                <input type="hidden" name="_token" value="k4YgdbogPJz5wm5xrfpzcZuGgZ4voSuYV47lUXdG">                
-                <button class="button-delete">削除</button>
-              </form>
-            </td>
-          </tr>
-                    <tr>
-            <td>
-              2021-07-21 10:14:54
-            </td>
-            <form action="http://young-woodland-12937.herokuapp.com/todo/update?id=4864" method="post">
-              <input type="hidden" name="_token" value="k4YgdbogPJz5wm5xrfpzcZuGgZ4voSuYV47lUXdG">              
-              <td>
-                <input type="text" class="input-update" value="" name="content" />
-              </td>
-              <td>
-                <button class="button-update">更新</button>
-              </td>
-            </form>
-            <td>
-              <form action="http://young-woodland-12937.herokuapp.com/todo/delete?id=4864" method="post">
-                <input type="hidden" name="_token" value="k4YgdbogPJz5wm5xrfpzcZuGgZ4voSuYV47lUXdG">                
-                <button class="button-delete">削除</button>
-              </form>
-            </td>
-          </tr>
-                    <tr>
-            <td>
-              2021-07-21 10:15:38
-            </td>
-            <form action="http://young-woodland-12937.herokuapp.com/todo/update?id=4874" method="post">
-              <input type="hidden" name="_token" value="k4YgdbogPJz5wm5xrfpzcZuGgZ4voSuYV47lUXdG">              
-              <td>
-                <input type="text" class="input-update" value="" name="content" />
-              </td>
-              <td>
-                <button class="button-update">更新</button>
-              </td>
-            </form>
-            <td>
-              <form action="http://young-woodland-12937.herokuapp.com/todo/delete?id=4874" method="post">
-                <input type="hidden" name="_token" value="k4YgdbogPJz5wm5xrfpzcZuGgZ4voSuYV47lUXdG">                
-                <button class="button-delete">削除</button>
-              </form>
-            </td>
-          </tr>
-                    <tr>
-            <td>
-            </td>
-            <form action="http://young-woodland-12937.herokuapp.com/todo/update?id=4884" method="post">
-              <input type="hidden" name="_token" value="k4YgdbogPJz5wm5xrfpzcZuGgZ4voSuYV47lUXdG">              <td>
-                <input type="text" class="input-update" value="" name="content" />
-              </td>
-              <td>
-                <button class="button-update">更新</button>
-              </td>
-            </form>
-            <td>
-              <form action="http://young-woodland-12937.herokuapp.com/todo/delete?id=4884" method="post">
-                <input type="hidden" name="_token" value="k4YgdbogPJz5wm5xrfpzcZuGgZ4voSuYV47lUXdG">                <button class="button-delete">削除</button>
-              </form>
-            </td>
-          </tr> 
-                  </table>
+        </table>
       </div>
     </div>
   </div>
   </div>
 </body>
-
 </html>

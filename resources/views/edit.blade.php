@@ -1,7 +1,26 @@
+@extends('layouts.hello')
+<style>
+  th {
+      background-color: black;
+      color: white;
+      padding: 5px 30px;
+    }
+    td {
+      border: 1px solid black;
+      padding: 5px 30px;
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      background: black;
+      color: white;
+    }
+</style>
 @section('title', 'edit.blade.php')
 
 @section('content')
 <form action="/todo/update" method="POST">
+@csrf
   <table>
     @csrf
     <tr>

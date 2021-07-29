@@ -20,6 +20,7 @@
 
 @section('content')
 <form action="/todo/delete" method="POST">
+@csrf
   <table>
     @csrf
     <tr>

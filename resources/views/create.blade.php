@@ -20,7 +20,8 @@
 
 @section('content')
 <form action="/todo/create" method="POST">
-  <table>
+@csrf
+<table>
     @csrf
     <tr>
       <th>
