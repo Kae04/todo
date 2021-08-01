@@ -17,13 +17,13 @@ class TodoController extends Controller
     public function create(Request $request)
     {
         $param = [
-            'id' => $request->idate,
+            'id' => $request->id,
             'content' => $request->content,
             'updated_at' => $request->updete,
             'created_at' => $request->create,
         ];
         DB::table('list')->insert($param);
-        return redirect('/todo/create');
+        return redirect('/');
     }
    public function edit(Request $request)
    {
